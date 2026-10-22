@@ -36,9 +36,3 @@ ul.list-unstyled a {
     object-fit: cover; /* Giữ nguyên tỷ lệ ảnh, cắt cúp thông minh không bị méo/bẹt */
     border-radius: 0.375rem; /* Bo góc tương đương class rounded của Bootstrap */
 }
-.container1 {
-    display: flex;
-    align-items: center;     /* Căn giữa theo chiều dọc */
-    height: 300px;
-    border: 1px solid #ccc;
-}

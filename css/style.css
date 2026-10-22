@@ -106,3 +106,11 @@ html {
 *, ::after, ::before {
     box-sizing: border-box;
 }
+/* Thiết lập kích thước cố định cho ảnh khách hàng và chống méo ảnh */
+.img-kh {
+    width: 80px;         /* Chiều rộng cố định */
+    height: 80px;        /* Chiều cao cố định bằng chiều rộng để thành hình tròn */
+    object-fit: cover;   /* Cắt cúp thông minh giúp ảnh không bị bẹt hay méo tỉ lệ */
+    border: 3px solid #f8f9fa; /* (Tùy chọn) Viền nhẹ quanh ảnh cho đẹp mắt */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* (Tùy chọn) Đổ bóng nhẹ */
+}
